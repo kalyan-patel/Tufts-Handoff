@@ -1,0 +1,51 @@
+
+.card {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    height: 375px;
+    display: inline-block;
+    background-color: hsl(195, 100%, 96%);
+}
+
+.card:hover {
+    box-shadow: 1px 3px 10px hsla(0, 0%, 0%, 0.25);
+    cursor: pointer;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+.card .card-title {
+    font-family: Cambria, Cochin;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card .card-desc {
+    color: hsla(0, 0%, 0%, 0.442);
+    margin: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card .card-price {
+    font-size: 125%;
+    font-weight: bold;
+    margin-botton: 3px;
+}
+
+
+body {
+    background-color: hsl(195, 44%, 73%);
+}
